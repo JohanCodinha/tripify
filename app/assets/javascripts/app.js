@@ -50,8 +50,8 @@ $(document).ready(function() {
 
 var displayModal = function(trip) {
   $('#modal-content').toggleClass('active');
-  var $displayUrl = $('<div>').text('Your saved trip page: http://tripifywdi6.herokuapp.com/' + trip.disp_url);
-  var $editUrl = $('<div>').text('To edit your trip later: http://tripifywdi6.herokuapp.com/' + trip.edit_url);
+  var $displayUrl = $('<div>').text('Your saved trip page: http://mapmytrip.herokuapp.com/' + trip.disp_url);
+  var $editUrl = $('<div>').text('To edit your trip later: http://mapmytrip.herokuapp.com/' + trip.edit_url);
   var $closeBtn = $('<button>').text('Close').addClass('button', 'icon', 'plus', 'loud');
   $($closeBtn).on('click', function() {
     $('#modal-content').toggleClass('active');
