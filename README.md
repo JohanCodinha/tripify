@@ -8,4 +8,5 @@ Front-end layout is made with pure CSS using Flexbox, it feature an autocomplete
 \#RubyonRails #Javascript #AJAX #D3.js 
 
 :link: [Live Demo](mapmytrip.herokuapp.com)
+
 ![Screenshot](ScreenshotDemo.png)
