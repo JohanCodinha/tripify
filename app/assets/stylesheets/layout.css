@@ -28,7 +28,7 @@
 .right-panel {
 	display: flex;
 	flex-direction: column;
-	flex: 4.5 0 0;
+	flex: 3.5 0 0;
 }
 .map {
 	flex: 1 0 0; 

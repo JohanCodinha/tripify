@@ -54,10 +54,11 @@ h4{
 
 #chart,
 #barchart {
-  display: inline-block;
+  flex: 1;
 }
 .graph {
   background-color: #eee;
+  display: flex;
 }
 .description {
   padding: 0 1em 1em;
